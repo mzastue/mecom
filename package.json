@@ -1,4 +1,9 @@
 {
+  "name": "mecom",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "private": true,
   "scripts": {
     "build": "turbo run build",
@@ -13,10 +18,5 @@
     "prettier": "^2.5.1",
     "turbo": "latest"
   },
-  "name": "mecom",
-  "packageManager": "npm@9.6.7",
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ]
+  "packageManager": "npm@9.6.7"
 }

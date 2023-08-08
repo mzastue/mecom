@@ -1,0 +1,1 @@
+{"version":3,"sources":["../index.ts"],"sourcesContent":["export default {\n  abc: 123,\n};\n"],"mappings":";;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IAAO,eAAQ;AAAA,EACb,KAAK;AACP;","names":[]}

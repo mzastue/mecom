@@ -1,0 +1,17 @@
+{
+  "name": "core",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "devDependencies": {
+    "tsconfig": "*"
+  },
+  "dependencies": {
+    "tsup": "^7.2.0"
+  }
+}
