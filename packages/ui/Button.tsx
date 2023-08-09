@@ -1,8 +1,13 @@
 "use client";
 
 import * as React from "react";
-import main from "core";
+import { MouseEventHandler } from "react";
 
-export const Button = () => {
-  return <button onClick={() => alert(main.abc)}>Boop</button>;
+interface ButtonProps {
+  onClick?: MouseEventHandler<HTMLButtonElement>;
+  label: string;
+}
+
+export const Button = ({ onClick, label }: ButtonProps) => {
+  return <button onClick={onClick}>{label}</button>;
 };
